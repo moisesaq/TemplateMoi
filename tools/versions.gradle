@@ -28,4 +28,9 @@ ext {
     daggerVersion = '2.11'
     rxJavaVersion = '2.0.1'
     rxBindingVersion = '2.0.0'
+
+    //Database local
+    lifecycleVersion = '1.0.0-alpha1'
+    roomVersion = '1.0.0-alpha1'
+    roomRXJavaVersion = '1.0.0-alpha2'
 }

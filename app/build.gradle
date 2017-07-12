@@ -47,4 +47,10 @@ dependencies {
     compile "com.google.dagger:dagger-android-support:" + daggerVersion
     annotationProcessor 'com.google.dagger:dagger-android-processor:' + daggerVersion
     annotationProcessor 'com.google.dagger:dagger-compiler:' + daggerVersion
+
+    /** ROOM DATA BASE LOCAL */
+    compile 'android.arch.persistence.room:runtime:'+roomVersion;
+    compile 'android.arch.persistence.room:rxjava2:'+roomRXJavaVersion
+    annotationProcessor 'android.arch.persistence.room:compiler:'+roomVersion;
+    //androidTestCompile 'android.arch.core:core-testing:'+roomRXJavaVersion
 }
